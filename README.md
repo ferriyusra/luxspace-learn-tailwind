@@ -1,4 +1,4 @@
-# The Idea
+# LuxSpace
 
-Basic boilerplate to get started slicing so you don't need to think about configuration.
+Learn tailwind with html webpack boilerplate
 
