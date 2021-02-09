@@ -78,7 +78,7 @@
 
   .slider .thumbnail .item:after {
     content: "";
-    @apply transition duration-200 absolute inset-0 bg-black bg-opacity-0 border-2 border-black border-opacity-0 rounded-lg;
+    @apply transition duration-300 absolute inset-0 bg-black bg-opacity-0 border-2 border-black border-opacity-0 rounded-lg;
   }
 
   .slider .thumbnail .item.selected:after {
@@ -87,7 +87,7 @@
 
   .slider .preview {
     @apply mb-4 px-4;
-    height: 32px;
+    height: 320px;
   }
 }
 
