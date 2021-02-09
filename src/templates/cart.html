@@ -263,6 +263,134 @@
                 <!-- END: SHIPPING CART  -->
 
                 <!-- START: SHIPPING DETAILS  -->
+                <div class="w-full md:px-4 md:w-4/12" id="shipping-detail">
+                    <div class="bg-gray-100 px-4 py-6 md:p-8 md:rounded-xl">
+                        <form action="success.html">
+                            <div class="flex flex-start mb-6">
+                                <h3 class="text-2xl">Shipping Details</h3>
+                            </div>
+                            <!-- START: input complete name -->
+                            <div class="flex flex-col mb-4">
+                                <label for="complete-name" class="text-sm mb-2">Complete Name</label>
+                                <input data-input type="text" id="complete-name"
+                                    class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none"
+                                    placeholder="Input your name" />
+                            </div>
+                            <!-- END: input complete name -->
+
+                            <!-- START: input email-address -->
+                            <div class="flex flex-col mb-4">
+                                <label for="email-address" class="text-sm mb-2">Email Address</label>
+                                <input data-input type="email" id="email-address"
+                                    class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none"
+                                    placeholder="Input your email" />
+                            </div>
+                            <!-- END: input email-address -->
+
+                            <!-- START: input address -->
+                            <div class="flex flex-col mb-4">
+                                <label for="address" class="text-sm mb-2">Address</label>
+                                <input data-input type="text" id="address"
+                                    class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none"
+                                    placeholder="Input your address" />
+                            </div>
+                            <!-- END: input address -->
+
+                            <!-- START: input phone number -->
+                            <div class="flex flex-col mb-4">
+                                <label for="phone-number" class="text-sm mb-2">Phone Number</label>
+                                <input data-input type="tel" id="phone-number"
+                                    class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none"
+                                    placeholder="Input your phone-number" />
+                            </div>
+                            <!-- END: input phone number -->
+
+                            <!-- START: Choose courier -->
+                            <div class="flex flex-col mb-4">
+                                <label class="text-sm mb-2">Choose courier</label>
+
+                                <div class="flex -mx-2 flex-wrap">
+                                    <!-- START: courier 1 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="fedex" data-name="courier" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/courier/logo-fedex.png" alt="fedex"
+                                                class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: courier 1 -->
+
+                                    <!-- START: courier 2 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="dhl" data-name="courier" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/courier/logo-dhl.png" alt="dhl"
+                                                class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: courier 2 -->
+                                </div>
+                            </div>
+                            <!-- END: Choose courier -->
+
+                            <!-- START: Choose Payment -->
+                            <div class="flex flex-col mb-4">
+                                <label class="text-sm mb-2">Choose Payment</label>
+
+                                <div class="flex -mx-2 flex-wrap">
+                                    <!-- START: payment 1 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="midtrans" data-name="payment" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/payment/logo-midtrans.png" alt="midtrans"
+                                                class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: payment 1 -->
+
+                                    <!-- START: payment 2 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="mastercard" data-name="payment" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/payment/logo-mastercard.png" alt="mastercard"
+                                                class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: payment 2 -->
+
+                                    <!-- START: payment 3 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="bitcoin" data-name="payment" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/payment/logo-bitcoin.png" alt="bitcoin"
+                                                class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: payment 3 -->
+
+                                    <!-- START: payment 4 -->
+                                    <div class="px-2 w-6/12 h-24 mb-4">
+                                        <button data-value="american-express" data-name="payment" type="button"
+                                            class="border border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full hover:bg-gray-400 hover:bg-opacity-10 transition duration-300 ease-in">
+                                            <img src="./images/content/payment/logo-american-express.png"
+                                                alt="american-express" class="object-contain max-h-full" />
+                                        </button>
+                                    </div>
+                                    <!-- END: payment 4 -->
+                                </div>
+                            </div>
+                            <!-- END: Choose Payment -->
+                            <div class="text-center">
+                                <button
+                                    class="bg-gray-300 text-gray-400 focus:bg-red-200 focus:outline-none w-full py-3 rounded-full text-lg focus:text-black transition-all duration-300 px-6"
+                                    type="submit">
+                                    Checkout Now
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
                 <!-- START: SHIPPING DETAILS   -->
             </div>
         </div>
